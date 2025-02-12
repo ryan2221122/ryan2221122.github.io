@@ -21,8 +21,11 @@ ul {
     list-style-type: square;
 }
 
-ul li:nth-child(odd) {
+ul li:nth-child(1) {
     background-color: seagreen;
+}
+ul li:nth-child(2) {
+    background-color: blue;
 }
 
 nav ul {
@@ -44,3 +47,13 @@ nav ul li a {
     border: 1px solid black; 
     display: inline-block;
 }
+a:link {
+    text-decoration: none;
+  }
+  a:link {
+    background-color: yellow;
+    border: 5000000px darkblue;
+  }
+  a:hover {
+    background-color: red;
+  }
