@@ -1,0 +1,99 @@
+body { 
+    background-color: #c5f3ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+   
+    line-height: 1.6;
+width: 70%;
+}
+header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+header h1 {
+  position: absolute;
+  top: 53%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
+
+  .title {
+    font-size: 102px;
+    padding: 0px 0px 90px 0px;
+    font-weight: 700;
+  }
+  h1 {
+    position: absolute;
+    top: 31%;
+    left: 31%;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+  }
+  nav ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  nav li {
+    margin: 0;
+    padding: 0 22px;
+    border-right: 1px solid black;
+
+  }
+
+  .article {
+    width: 80%;
+    margin: 0%;
+    padding: 22px;
+  }
+
+  .article h2 {
+    font-size: 40px;
+    margin-bottom: 0.75rem;
+  }
+
+  .article img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+  .facts {
+    padding: 15px;
+    margin-bottom: 28px;
+  }
+
+#visit{
+  margin-top: 20px;
+  padding: 10px;
+  border: solid black;
+
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px; 
+  text-align: center;
+}
+
+footer {text-align: right;}
+  
+
